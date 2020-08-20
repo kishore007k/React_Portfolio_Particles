@@ -1,3 +1,7 @@
+## React Portfolio (Particles) Website⚡
+
+<img src='https://user-images.githubusercontent.com/34863222/90825278-51f62580-e356-11ea-96ba-a5131e049b36.gif' alt='Project-img'>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
