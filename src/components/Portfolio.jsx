@@ -26,7 +26,6 @@ const useStyles = makeStyles({
   },
   cardContainer:{
     maxWidth: "90%",
-    margin: "3rem",
     margin: "5rem auto"
   }
 });

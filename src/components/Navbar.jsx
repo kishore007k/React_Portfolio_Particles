@@ -17,6 +17,7 @@ import {
 } from '@material-ui/core';
 import { ArrowBack, AssignmentInd, Home, Apps, ContactMail } from '@material-ui/icons';
 import avatar from '../assets/avatar.png';
+import Footer from './Footer';
 
 // CSS Styles
 const useStyles = makeStyles(theme => ({
@@ -102,8 +103,9 @@ const Navbar = () => {
             <MobileRightMenuSlider 
             anchor='right' 
             open={state.right} 
-            onClick={togglerSlider('right', false)}>
+            onClose={togglerSlider('right', false)}>
               {sideList('right')}
+            <Footer />
             </MobileRightMenuSlider>
           </Toolbar>
         </AppBar>

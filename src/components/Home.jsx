@@ -5,9 +5,11 @@ import Particles from 'react-particles-js';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
-	particlesCanva:{
-		position: 'absolute',
-		opacity: '0.3'
+	particlesCanvas:{
+		position: "absolute",
+    width: "100%",
+    height: "100%",
+    zIndex: "-1",
 	}
 })
 
@@ -17,7 +19,7 @@ function Home() {
 		<div>
 			<Navbar />
 			<Header />
-			<Particles canvasClassName={classes.particlesCanva} params={{particles: {
+			<Particles canvasClassName={classes.particlesCanvas} params={{particles: {
 				number:{
 					value:45,
 					density: {
